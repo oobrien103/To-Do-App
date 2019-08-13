@@ -106,7 +106,7 @@
 <div class="container">
     <img class="logo" src={'/img/1_OJLglSTFZ1PbwpRG0U2xXA.png'} alt="Logo">
 
-    <h2>Svelte Todo App</h2>
+    <h2>Svelte To-Do App</h2>
     <input type="text" class="todo-input" placeholder="Insert todo item ..." bind:value={newTodoTitle} on:keydown={addTodo} >
 
     {#each filteredTodos as todo}
