@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "sirv-cli": "^0.4.4",
-    "ws": "^7.1.1"
+    "ws": "^7.4.6"
   },
   "scripts": {
     "build": "rollup -c",
